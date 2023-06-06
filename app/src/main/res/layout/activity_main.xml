@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/table"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 1"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/image"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/one"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/two"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 4"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/three"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 5"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/four"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 6"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/five"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 7"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/six"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 8"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/seven"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 9"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/eight"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 10"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/nine"
+        android:layout_marginRight="250dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/eleven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 11"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/image"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/twelve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 12"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/eleven"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/thirteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 13"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/twelve"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/fourteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 14"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/thirteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/fifteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 15"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fourteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 16"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/fifteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/seventeen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 17"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/sixteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/eighteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 18"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/seventeen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/nineteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 19"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/eighteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/twenty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="table 20"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/nineteen"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="20dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
